@@ -1,0 +1,103 @@
+.header {
+  text-align: center;
+}
+.logoimg {
+  width: 30%;
+}
+grid {
+  margin: 10px auto;
+  /* background-color: rgba(83, 83, 46, 0.931); */
+}
+.col {
+  height: 340px;
+}
+.main {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BNjk2NjFkNjgtNjM3Ny00Y2MwLWFkNDktNDdkNTQ3OGUxMWZlXkEyXkFqcGdeQXVyMjI5NDMxNjg@._V1_.jpg");
+  background-size: cover;
+}
+.slide-up-fade {
+  animation: slide-up-fade 1s ease-in-out;
+}
+
+@keyframes slide-up-fade {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  filter: brightness(110%);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.card-body {
+  background-color: rgb(252, 249, 249);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.search-bar {
+  border-radius: 40px;
+  border: 2px solid red;
+  outline: none;
+}
+.btn1 {
+  border-radius: 40px;
+  border: 2px solid red;
+  outline: none;
+  background-color: red;
+  padding: 10px;
+  color: white;
+  margin-left: -80px;
+}
+.logo {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  text-decoration: none;
+ font-size: 25px;
+  color: black;
+}
+
+
+
+
+
